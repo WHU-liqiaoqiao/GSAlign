@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python tools/train_net.py --config-file /root/project/SeCap-AGPReID-main/configs/CARGO/VDT.yml MODEL.DEVICE "cuda:0" SOLVER.IMS_PER_BATCH 128

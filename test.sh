@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python3 tools/train_net.py --config-file ./configs/CARGO/VDT.yml --eval-only MODEL.WEIGHTS /root/project/SeCap-AGPReID-main/logs/CARGO/DCA-MASK-0.1/model_best.pth
